@@ -1,4 +1,4 @@
-import getHealthStatus, { sortByHealt } from '../healthStatus';
+import getHealthStatus from '../healthStatus';
 import { test, expect } from '@jest/globals';
 test.each([
   [{ name: 'Маг', health: 90 }, 'healthy'],
