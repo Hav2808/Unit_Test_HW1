@@ -10,4 +10,4 @@ test.each([
   const healthert = getHealthStatus(character);
   expect(healthert).toBe(check);
   }
-);
+)
