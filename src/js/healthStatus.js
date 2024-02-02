@@ -7,8 +7,4 @@ export default function getHealthStatus(character) {
         return 'critical';
       }
     }
-
-export function sortByHealt(character) {
-  return [...character].sort((a, b) => b.health - a.health);
-  }
   
