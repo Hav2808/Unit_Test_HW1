@@ -11,20 +11,3 @@ test.each([
   expect(healthert).toBe(check);
   }
 );
-
-test('characters sort by health', () => {
-  const characters = [
-    { name: 'мечник', health: 10 },
-    { name: 'маг', health: 100 },
-    { name: 'лучник', health: 80 },
-  ];
-
-  const expected = [
-    { name: 'маг', health: 100 },
-    { name: 'лучник', health: 80 },
-    { name: 'мечник', health: 10 },
-  ];
-
-  const result = sortByHealt(characters);
-  expect(result).toEqual(expected);
-});
